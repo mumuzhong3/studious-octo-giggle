@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumu的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project div {
+            flex: 1 1 calc(33% - 10px);
+            box-sizing: border-box;
+            margin: 5px;
+            padding: 10px;
+            background: #e4e4e4;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Mumu的个人主页</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#projects">项目作品</a></li>
+                    <li><a href="#services">服务内容</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="projects">
+            <h2>项目作品</h2>
+            <div class="project">
+                <div>
+                    <h3>项目名称1</h3>
+                    <p>项目描述1。详细介绍项目的创意、执行过程和最终成果。</p>
+                </div>
+                <div>
+                    <h3>项目名称2</h3>
+                    <p>项目描述2。详细介绍项目的创意、执行过程和最终成果。</p>
+                </div>
+                <div>
+                    <h3>项目名称3</h3>
+                    <p>项目描述3。详细介绍项目的创意、执行过程和最终成果。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>服务内容</h2>
+            <p>我提供以下服务：</p>
+            <ul>
+                <li>创意开发：构思新的节目或视频内容，包括剧情、角色和主题。</li>
+                <li>剧本编写：创作或修改剧本，确保故事连贯性并吸引观众。</li>
+                <li>拍摄计划：制定拍摄日程和预算。</li>
+                <li>现场指导：在拍摄现场指导演员和工作人员。</li>
+                <li>后期制作：监督剪辑、音效、特效等后期工作。</li>
+                <li>市场营销：参与或协调内容的推广和营销活动。</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>联系方式</h2>
+            <p>如有任何问题或合作意向，请通过以下方式联系我：</p>
+            <ul>
+                <li>邮箱: mumu@example.com</li>
+                <li>电话: 123-456-7890</li>
+                <li>微信: mumu123</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Mumu &copy; 2024. 版权所有.</p>
+    </footer>
+</body>
+</html>
